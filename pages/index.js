@@ -1,10 +1,16 @@
-import Navigation from '../components/navigations';
+import Head from "next/head";
+
+import Container from "../components/container";
 
 const Index = () => {
   return (
     <div>
-      <Navigation/>
-      <h1>Hello World</h1>
+      <Head>
+        <title>Next.js Proyect - Home</title>
+      </Head>
+      <Container>
+        <h1>Hello World</h1>
+      </Container>
     </div>
   );
 };
@@ -12,4 +18,4 @@ const Index = () => {
 export default Index;
 
 // Nextjs Curso Práctico | Framework de SSR basado en React
-// 16:40
+// 27:42
