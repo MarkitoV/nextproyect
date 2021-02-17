@@ -1,11 +1,16 @@
-import Navigation from '../components/navigations';
+import Head from 'next/head';
+
+import Container from '../components/container';
 
 const About = () => {
   return (
-    <div>
-      <Navigation/>
+    <Container>
+      <Head>
+        <title>Next.js Proyect - About</title>
+      </Head>
       <h1>About</h1>
-    </div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam eum, cumque aperiam quam incidunt odit tempore. Facere modi laboriosam illo esse cupiditate quas, sint rem perspiciatis sit maxime nostrum aut!</p>
+    </Container>
   );
 };
 
